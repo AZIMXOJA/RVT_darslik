@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Variables</title>
+	<style type="text/css">
+	   div{
+		  padding: 8px;
+        }
+        
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        
+        
+        h1, h2, h3, h4, h5 {
+            text-align: center;
+        }
+        
+        p{
+            text-align: justify;
+        }
+        
+		.container{
+			width: auto;
+			height: auto;
+		}
+		.header{
+			padding: 10px;
+            border-color: red;
+            border: 10px;
+            border-bottom-style:groove;
+            
+		}
+		code{
+			background-color: rgba(0,0,0,0.08);
+			padding: 4px;
+			border: 2px solid rgba(0,0,0,0.1);
+			border-radius:15px;
+		}
+	</style>
+</head>
+    
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>Real vaqt tizimlari. Tashqi tizimlar </h2>
+		</div>
+       <!-- header end-->
+        
+		<div class="body">
+            <ol>Reja:
+                <li>Real vaqt operatsion tizimlari</li>
+                <li>Operatsion tizimga qo’yiladigan asosiy talablar</li>
+                <li>Real vaqtning ko‘p tarmoqli ilovasini
+    shakllantirish</li>
+            </ol>
+            <h4>REAL VAQT OPERATSION TIZIMLARI</h4>
+            <p>Bu operativ tizim umumiy vazifali operativ tizimdan birinchi navbatda shu bilan farq qiladiki, tizimga kelayotgan axborot albatta berilgan vaqt intervali davomida ishlab bo‘linishi kerak (bu vaqt intervallarini oshirish mumkin emas). Vazifasi umumiy bo‘lgan OT ishining real vaqt OT ishidan yana bir farqi shundaki, birinchi OTda foydalanuvchilar masalalarining oqimi rejalashtirilgan va operator tomonidan sozlanadi, ikkinchi OTda esa ishlov berishga so‘rovlar istalgan vaqtda kelishi mumkin. Shuning uchun real vaqt operativ tizimi ba’zi qo‘shimcha imkoniyatlarni ta’minlashi lozim, masalan doimiy masalalar yaratiladi. </p>
+            <p>Vazifasi umumiy bo‘lgan OTlarda qo‘shimcha sarflarning salmoqli qismini vaqt sarfi tashkil qiladi; buni bajarishda OT masala yechilishi bo‘yicha foydalanuvchining hamma istaklarini aniqlab (tanib) oladi, OXga zarur bo‘lgan dasturni yuklaydi hamda uni bajarish uchun zarur bo‘lgan resurslarni ajratadi. Real vaqt OTda esa bunday sarflarning oldini olishi mumkin, chunki ularda masalalar to‘plami doim muayyan belgilangan, ya’ni kelayotgan axborotga ishlov berish uchun zarur bo‘lgan dasturlar, tashqi qurilmalar, ma’lumotlar oldindan aniqlangan va ular so‘rovlar tushgunigacha tayyorlab qo‘yilishi mumkin. Bunday bir marta qayta ishlov berilgan masalalar real vaqt OT kompyuter OXda doim mavjud bo‘ladi (ularni ishlashga so‘rov tushdimi yoki yo‘qmi, bundan qat’iy nazar). </p>
+            <p><b>KOMPYUTER YUKI</b> katta bo‘lganda shunday vaziyat sodir bo‘lishi mumkinki, bitta yoki bir nechta masala berilgan vaqt oralig‘ida realizatsiya qilina olmaydi. Bu holda OT «avariyali masalalar»ustuvorliklarini dinamik o‘zgartirish imkoniyatiga ega bo‘lishi kerak. Bu masalalar yechilgandanso‘ng ustuvorliklarning dastlabki qiymatlari qayta o‘rnatiladi. Hisoblash tarmoqlari ishini tashkil qilish uchun mo‘ljallangan operatsion tizimlarBu OTlar hozirgi paytda unchalik keng tarqalmagan, chunki hisoblash tarmoqlari o‘zlarining tarkibiga har xil arxitekturali EHMlari kiritilishini nazarda tutadi va ko‘p hollarda ularning har biri o‘zining vazifasi umumiy bo‘lgan OT boshqaruvida ishlaydi. OTning hisoblash tarmog‘ida ishlashi ma’lum xususiyatlar bilan tavsiflanadi. Ularning ichida eng asosiysi – hisoblash tarmog‘i ichida ma’lumotlarni uzatishni tashkil qilish zaruratidir. Hisoblash tarmog‘i ichida istalgan informatsiya alohida portsiyalar – ma’lumotlar bloki bilan uzatiladi. Ma’lumotlar bloklarini uzatish bo‘yicha </p>
+            <h4>Operatsion  tizimga  qo‘yiladigan  asosiy talablar</h4>
+            <ol>
+                <li>Ma’lumotlar bloki tarmoqda ma’lumot manbai va uning manzili orasida ikki yo‘nalishda asinxron ravishda va erkin aloqada  qolishi kerak.</li>
+                <li>OT ma’lumotlar bloki tarmoqda bo‘lgan davri davomida uning o‘tishini nazorat qilib turishi lozim</li>
+                <li>Ma’lumotlar bloklari hisoblash tarmog‘ida bo‘lganida ularning yo‘qolishi yoki o‘zgarishining oldini oluvchi dastuiy va apparat vositalari zarur</li>
+                <li>OT o‘z ichiga hisoblash tarmog‘ida qaytalangan, yo‘qolgan yoki yangilanish ma’lumotlar bloklarini qidirib topish mexanizmini kiritishi kerak</li>
+            </ol>
+            <p>Har bir hodisaga OT to‘g‘ri reaktsiya silganda joriy dasturning bajarilishi albatta to‘xtalishi va protsessorni boshqarish boshqa mos modulga uzatilishi lozim; bu modul sodir bo‘lgan voqeani identifitsirlashi kerak.
+                Uzilishlarga ishlov berish mexanizmi EHM va OT turidan qat’iy nazar doim quyidagi elementlarni o‘z ichiga oladi:
+            </p>
+            <ol>
+                <li>Uzilgan dastur haqida batafsil axborotni, xususan bundan keyin bajarilishi lozim bo‘lgan komanda adresi haqidagi axborotni xotirada saqlashi; </li>
+                <li>Sodir bo‘lgan hodisani tasniflovchi va unga mos ravishda ishlov beruvchi OTning maxsus moduliga boshqaruvni o’zatishi;</li>
+                <li>Ustuvorligi va hisobga tayyorligiga qarab foydalanuvchining u yoki bu masalasiga boshqaruvni qaytarishi lozim. Bunda boshqaruv oldin o’zilgan dasturga qaytarilishini istisno qilib bo‘lmaydi.   Turli HTlarida o’zilishlarga ishlov berish turlicha va odatda apparat vositalari yordamida amalga oshiriladi</li>
+            </ol>
+            <h4>Real vaqtning ko‘p tarmoqli ilovasini shakllantirish</h4>
+            <p>Deyarli har bir real vaqtga taalluqli masala o‘z ichiga bir necha bir-biriga bog‘liq masalalar ketma-ketligini keltirib chiqarish bilan birga, har bir masalani alohida yechish yoki masalalar uzviyligini o’zishi yoki masalalarning kamroq soni bilan yechish ham mumkin. Shu bilan birga, masalalar yechimi raqobat orqali amalga oshiriladi (bir jarayonli tizim) yoki parallel ravishda ko‘p jarayonli tizimi orqali. Ayni bir jarayonning o‘zidagina individual oqim ko‘rinishida yuqorida aytib o‘tilgandek, ko‘p masalalar tarmoqli model tizimi mavjud. Shu bilan birga, jarayon ikki qismga bo‘linadi. Birinchi qism o‘zida quyidagi resurslarni jamlaydi: butun dasturni qamrab oluvchi dasturiy kod va global ma’lumotlar. Ikkinchi qism esa quyidagi ma’lumotga ega: bajarish holatiga taalluqli ma’lumot, masalan, dasturga oid hisobchi va tugatgich. Bu qism — oqim (thread) deb ataladi.</p>
+            <p>«Linux» operatsion tizimi aniq tillar to‘plamiga moslashtirilgan «C» dasturlash tili bilan ta’minlangan va tarmoqlar ustida ishlovchi operatsiyalarni bajaruvchi vazifalar to‘plami mavjud. Oqimlarning bajarilishini qo‘llab-quvvatlovchi ARM (kutubxona) va sarlavhali fayllar to‘plami ko‘rinishida shakllantirilgan bo‘lib, umumlashtirish jarayonida yuqoridagi yordam dasturi ishga tushadi. Shuni ta’kidlab o‘tish joizki, «Linux» operatsion tizimida oqimlar bajarilishi alohida jarayon deb hisoblanadi, mavjud jarayonning biror-bir qismi emas. Ilovaning ko‘p tarmoqli ishlarini tashkillashtirishda quyidagi oqimlarni boshqara bilish zarur (yaratish, yakunlash, bloklash), sodda jarayonlar yordamida alohida qismlarni sinxronizatsiyalashtirish va bir vaqtning o‘zida umumiy resurslardan foydalanishga o‘zaro to‘siqni ta’minlash. ARM yordamidan foydalanish davomida sodda jarayonlarning quyidagi ko‘rinishlari ishga tushadi, masalan: Myuntekslar, semaforlar, shartli o‘zgaruvchilar.</p>
+		</div>
+	</div>
+</body>
+</html>

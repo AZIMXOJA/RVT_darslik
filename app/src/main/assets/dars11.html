@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dars11</title>
+	<style type="text/css">
+	   div{
+		  padding: 8px;
+        }
+        
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        
+        
+        h1, h2, h3, h4, h5 {
+            text-align: center;
+        }
+        
+        p{
+            text-align: justify;
+        }
+        
+		.container{
+			width: auto;
+			height: auto;
+		}
+		.header{
+			padding: 10px;
+            border-color: red;
+            border: 10px;
+            border-bottom-style:groove;
+            
+		}
+		code{
+			background-color: rgba(0,0,0,0.08);
+			padding: 4px;
+			border: 2px solid rgba(0,0,0,0.1);
+			border-radius:15px;
+		}
+	</style>
+</head>
+    
+<body>
+	<div class="container">
+		<div class="header">  
+			<h2>O’lchash kanalining qurilmalari va ularning ko’rsatkichlari</h2>
+		</div>
+       <!-- header end-->
+        
+		<div class="body">
+            <ol>Reja:
+                <li>Real vaqt ekspert tizimlari - Sun’iy intellektning asosiy yo’nalishi</li>
+                <li>Real vaqt ETlarining arxitekturasi</li>
+                <li>Modullar va ishchi fazolar ierarxiyasi</li>
+                                                           
+            </ol>
+            
+            
+            <p>Bilimlarga asoslangan ixtisoslashgan tizimlar o’rtasida real vaqt ETlari yoki dinamik ETlar katta ahamiyatga ega. Bozorning 70% ularning ulushiga to’g’ri keladi. Real vaqt texnik vositalarining ahamiyati ularning shiddatli tijorat muvaffaqiyatlari bilan emas, balki birinchi navbatda, faqatgina bunday vositalar yordamida strategik ahamiyatga ega ilovalar yaratish mumkinligi bilan aniqlanadi. </p>
+            <p>Bunday ilovalar:</p>
+            <p>- ximiya, farmokologiya sohalarida uzluksiz ishlab chiqarish jarayonlarini boshqarishda; </p>
+            <p>- sement, oziq - ovqat mahsulotlari va sh.k. larni ishlab chiqarishda;</p>
+            <p>- aerokosmik tadqiqotlarda;</p>
+            <p>- neft va gazni qayta ishlash va tashishda;</p>
+            <p>- atom va issiqlik elektr stantsiyalarni boshqarishda;</p>
+            <p>- moliyaviy operatsiyalar va boshqa ko’plab sohalarda qo’llaniladi.</p>
+            
+            <ol><b>Real vaqt ETlari yechadigan masalalar sinfi quyidagicha:</b> 
+                <li>Real vaqt masshtabida monitoring;</li>
+                <li>Yuqori darajalarni boshqarish tizimlari;</li>
+                <li>Tashxislash;</li>
+                <li>Optimallashtirish;</li>
+                <li>Maslahatchi tizimlar;</li>
+                <li>Loyihalash tizimlari.</li>
+            </ol>
+            
+            <h4>Real vaqt ETlarining arxitekturasi.</h4>
+            <p>Real vaqt ETlariga qo’yiladigan maxsus talablar ularning arxitekturasi statik tizimlar arxitekturasidan farq qilishiga olib keladi. Ikir - chikirlarga berilmasdan ikki qism tizimning paydo bo’lganligini ta’kidlab o’tamiz: tashqi muhitni modellashtirish va tashqi muhit bilan bog’lanish(datchiklar, kontrollerlar, MBBT va h.k.). </p>
+            <p>Real vaqt ETlarini yaratish vositasi o’zida nimani aks ettirishini tushunish uchun quyida bunday tizimning hayot siklini va uning asosiy komponentlarini tavsiflab o’tamiz. Real vaqt ETlari qobig’ini tavsiflashni G2 tizimi misolida olib boramiz, chunki bunday dasturiy maxsulotlar uchun zarur va o’rinli xisoblangan barcha imkoniyatlar unda to’liq amalga oshirilgan.</p>
+            
+            <h4>Ilovaning hayot sikli. G2 tizimda ilovaning hayot sikli bir qator bosqichlardan iborat.</h4>
+            <p>1.1. <i>Ilovaning yaxshashini ishlab chiqish.</i> Ishlab chiqaruvchi odatda muayyan bilim sohasidagi mutaxassis bo’ladi. U asosiy foydalanuvchi bilan muhokama davomida yaxshashning bajaradigan funktsiyasini aniqlaydi. O’xshashni ishlab chiqishda an’anaviy dasturlash ishlatilmaydi. O’xshashni yaratish uchun odatda bir haftadan ikki haftagacha vaqt sarflanadi(ishlab chiqaruvchi bu muhitda ilova yaratish tajribasiga ega bo’lsa). Ilova singari yaxshash ob’ekti grafika, ob’ekt sinflari ierarxiyasi, qoidalar, tashqi olamning dinamik modellaridan foydalangan holda strukturalashtirilgan tabiiy tilda yaratiladi. </p>
+            <p>1.2. <i>O’xshashni ilovagacha kengaytirish.</i> Asosiy foydalanuvchi ishni bosqichma-bosqich olib borishni taklif etadi, unga hujjatlarni ko’rsatadi. Ishlab chiqaruvchi hatto ilova ishlayotganda ham foydalanuvchi ishtirokida bilimlar bazasini kengaytirishi va modifikatsiya qilishi mumkin. Bu ish jarayonida yaxshash shunday holatgacha rivojlanishi mumkinki, asosiy foydalanuvchi tasavvurini qondira boshlaydi. Katta ilovalarda iщlab chiqaruvchilar guruhi ilovani yagona bilimlar bazasiga integrallashadigan alohida modullarga bo’lishi mumkin.</p>
+            <p>1.3. <i>Ilovani xatoliklar mavjudligi byayicha testdan yatkazish.</i> G2 da sintaksis xatolar ma’lumotlar bazasiga konstruktsiyalarni (ma’lumotlar strukturasi va bajariladigan tasdiqlar) kiritish jarayonida to’g’ridan - to’g’ri ko’rsatiladi. Faqat hech qanday xatolarga ega bo’lmagan konstruktsiyalar kiritilishi mumkin. SHu tarzda butun ilovani sozlash fazasi tushib qoladi va ilovani ishlab chiqarishni tezlashtiradi. Ishlab chiqaruvchi G2 tilining sntaksisini mukammal bilishi shart emas.</p>
+            
+            <h4>Modullar va ishchi fazolar ierarxiyasi</h4>
+            <p>G2 ilovani strukturalashtirish uchun «modul» va «ishchi fazo» lar qo’llaniladi. Bu konstruktsiyalarning funktsiyalari o’xshash bo’lishiga qaramasdan ular o’rtasida muhim farqlar bor. Ilova modullar deb nomlangan bir yoki bir nechta bilimlar bazasi ko’rinishida tashkil etilgan bo’lishi mumkin. Bu holda ilova modullar strukturasi (ierarxiyasi) orqali tasvirlangan deyiladi. </p>
+            <p>Yuqori darajada - bitta yuqori darajadagi modul. Keyingi darajadagi modullar oldingi darajadagi modullar ularsiz ishlay olmaydigan modullardan tashkil topgan. Ilovani strukturalashtirish ilovani bir vaqtning o’zida bir nechta guruhlar tomonidan ishlab chiqishga imkon beradi, ishlab chiqarish, sozlash va sinashni soddalashtiradi, bir - biriga bog’liq bo’lmagan holda modullarni o’zgartirishga imkon beradi, bilimlar bazasidan qayta foydalanishni soddalashtiradi</p>
+            <p>«Modullar» va «ishchi fazolar» o’rtasidagi farq quyidagidan iborat. Modullar ilovani turli ilovalarda birgalikda ishlatiladigan alohida bilimlar bazasiga ajratadi. Ular ilovadan ishlash jarayonida emas, uni ishlab chiqarish jarayonida foydalanadi. Aksincha ishchi fazo ilova bajarilayotganda o’zining rolini bajaradi. Ular turli xil moxiyatlarni o’z ichiga oladi va ilovani tushunish va qayta ishlash oson bo’ladigan kattaroq qismlarga ajratishni ta’minlaydi</p>
+            <p><i>Ma’lumotlar strukturasi.</i> Bilimlar bazasidagi moxiyatlarni ularni ishlatish nuqtai nazaridan ma’lumotlar strukturasi va bajariladigan tasdiqlarga ajratish mumkin. Ma’lumotlar strukturasiga ob’ektlar va ularning sinflari, aloqalar(connection), munosabatlar(relation), o’zgaruvchilar, parametrlar, ro’yxatlar, massivlar ishchi fazolar misol bo’ladi. Bajariladigan tasdiqlarga qoidalar, protseduralar, formulalar, funktsiyalar misol bo’ladi</p>
+            
+                
+		</div>
+	</div>
+</body>
+</html>
